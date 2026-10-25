@@ -212,7 +212,6 @@ reports/                 # Exports locaux, ignorés par Git
 dist/                    # Paquets construits localement, ignorés par Git
 ```
 
-Le coffre Obsidian personnel reste **hors du dossier du projet**. Les notes personnelles, environnements et rapports locaux ne font pas partie du dépôt.
 
 - [Notes de version](PATCH_NOTES.md)
 - [Architecture](docs/ARCHITECTURE.md)
