@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analyseur-fichier"
+version = "0.2.1"
+description = "Analyse statique locale de fichiers suspects avec rapports explicables"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pefile>=2024.8.26,<2025", "yara-python>=4.5,<5", "psutil>=6,<8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+anlz = "file_detector.gui:main"
+analyseur = "file_detector.gui:main"
+file-detector = "file_detector.cli:main"
+file-detector-gui = "file_detector.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+file_detector = ["rules/*.yar"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+

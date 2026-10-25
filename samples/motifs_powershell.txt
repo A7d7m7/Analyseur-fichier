@@ -1,0 +1,5 @@
+Ce fichier est du texte inerte, sans commande exécutable.
+Les mots ci-dessous vérifient une combinaison de motifs YARA :
+powershell DownloadString Invoke-Expression
+Le résultat attendu est un indice YARA, pas une preuve de malware.
+

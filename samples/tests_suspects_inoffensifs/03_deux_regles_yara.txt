@@ -1,0 +1,6 @@
+Liste de mots inerte, sans commande a executer :
+powershell
+DownloadString
+Invoke-Expression
+-EncodedCommand
+-WindowStyle Hidden

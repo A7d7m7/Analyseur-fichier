@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+reports/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Anciens rapports locaux créés dans samples ; garder les échantillons de test.
+/samples/rapport.html
+/samples/rappor2.html
+
+# Notes personnelles : le coffre principal est hors du projet.
+# Protection supplémentaire si une copie est placée ici un jour.
+.obsidian/
+Obsidian/
+obsidian/
+coffre-obsidian/
+Analyseur-fichier-Obsidian/
+
+
+# Guide personnel conservé uniquement dans le coffre externe.
+/docs/PUBLICATION_GITHUB.md
+/docs/ROADMAP.md

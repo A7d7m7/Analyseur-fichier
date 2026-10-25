@@ -1,0 +1,4 @@
+Échantillon inoffensif destiné à vérifier YARA.
+FILE_DETECTOR_TEST_MARKER
+Ce marqueur ne doit pas augmenter le score de suspicion.
+
